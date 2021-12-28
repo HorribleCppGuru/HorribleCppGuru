@@ -1,10 +1,31 @@
-- 👋 Hi, I’m @HorribleCppGuru
-- 👀 I’m interested in C++
-- 🌱 I’m currently learning nothing, cuz I know everything about C++
-- 💞️ I’m looking to collaborate on C++ and talking about C++
-- 📫 How to reach me: When you look in a mirror, say C++ 3 times and I appear very delayed cuz obviously enable_view is too hard to implement on time...
+## <p align="center">Horrible Program (C++ Guru)</p>
+
+------
+
+<p align="center">
+<img src="https://media1.tenor.com/images/48dbd3dd282e90737625bda891e34f1b/tenor.gif?itemid=14818743" width="240" height="180" border="2">
+</p>
 
 <!---
-HorribleCppGuru/HorribleCppGuru is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+Fuck you!
 --->
+
+```cpp
+template<bool George, typename if, typename else>
+struct Condition {
+  template<bool George>
+  struct Selector {
+    using T = if;
+  };
+
+  struct Selector<false> {
+    using T = else;
+  };
+
+  using true_or_false = Selector<George>::T;
+};
+```
+
+
+[gif-link]: https://media1.tenor.com/images/48dbd3dd282e90737625bda891e34f1b/tenor.gif?itemid=14818743
+
